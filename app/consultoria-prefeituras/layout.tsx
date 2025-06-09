@@ -1,8 +1,6 @@
-export default function ConsultoriaPrefeiturasPage() {
-  return (
-    <main>
-      <h1>Consultoria para Prefeituras</h1>
-      <p>Essa é uma nova rota com estrutura válida e funcional.</p>
-    </main>
-  );
+// app/consultoria-prefeituras/layout.tsx
+
+export default function Layout({ children }: { children: React.ReactNode }) {
+  return <>{children}</>;
 }
+
